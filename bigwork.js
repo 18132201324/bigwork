@@ -417,45 +417,45 @@ function getout3(){
 }
 function getout4(){
 	if(key){
-		up.style.display="block";
-		up.style.background="#cac69e";
-		animate(up,{opacity:100});
+		up2.style.display="block";
+		up2.style.background="#cac69e";
+		animate(up2,{opacity:100});
 		key=false;
 	}
 	else{
-		animate(up,{opacity:0});
+		animate(up2,{opacity:0});
 		setTimeout(function(){
-			up.style.display="none";
+			up2.style.display="none";
 		},1500);
 		key=true;
 	}
 }
 function getout5(){
 	if(key){
-		up.style.display="block";
-		up.style.background="#abc2df";
-		animate(up,{opacity:100});
+		up2.style.display="block";
+		up2.style.background="#abc2df";
+		animate(up2,{opacity:100});
 		key=false;
 	}
 	else{
-		animate(up,{opacity:0});
+		animate(up2,{opacity:0});
 		setTimeout(function(){
-			up.style.display="none";
+			up2.style.display="none";
 		},1500);
 		key=true;
 	}
 }
 function getout6(){
 	if(key){
-		up.style.display="block";
-		up.style.background="#bdbad7";
-		animate(up,{opacity:100});
+		up2.style.display="block";
+		up2.style.background="#bdbad7";
+		animate(up2,{opacity:100});
 		key=false;
 	}
 	else{
-		animate(up,{opacity:0});
+		animate(up2,{opacity:0});
 		setTimeout(function(){
-			up.style.display="none";
+			up2.style.display="none";
 		},1500);
 		key=true;
 	}
